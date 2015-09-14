@@ -6,7 +6,7 @@ var Ai = function(name, strategy){
   Player.call(this, name);
   this.strategy  = null; //will be used to set a playing style, ie aggressive
   this.opponentMoves = []; // indoex 0 will be first move
-}
+};
 
 Ai.prototype = new Player(Ai.name);
 
