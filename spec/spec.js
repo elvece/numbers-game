@@ -2,12 +2,6 @@ var code = require('../js/main.js');
 
 //test as player
 
-var player = new Player ("player1");
-var AI =
-
-//pass in array of numbers
-
-
 describe('first turn', function() {
   //AI picks 3
   it('shows player wins with 2 points', function() {
